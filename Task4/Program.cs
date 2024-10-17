@@ -13,7 +13,8 @@ for (int i = 1; i < 8; i++)
     }
     else
     {
-        overtimeHourMoney = hour * 15;
+        regularHourMoney += 8 * 10;
+        overtimeHourMoney = (hour - 8) * 15;
     }
 }
 
